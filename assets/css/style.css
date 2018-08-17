@@ -1,0 +1,49 @@
+body {
+    background-image: url(../images/blue+mystic.jpg);
+    background-repeat: no-repeat;
+    background: cover;
+    background-size: 2000px 1000px;
+    font-family: 'Patua One', cursive;
+    text-align: center;
+    margin: auto;
+    overflow: auto;
+}
+
+header {
+    font-size: 80px;
+    color: white;
+    position: relative;
+}
+
+h1 {
+    margin-top: 40px;
+    color: white;
+    margin-top: 100px;
+}
+
+wrapper {
+    overflow: auto;
+}
+
+.row {
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+}
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 959px) {
+    .wrapper {width: 100%;}
+    .row {width: 100%;}
+    .container {margin: auto;}
+
+
+
+
+
+}
